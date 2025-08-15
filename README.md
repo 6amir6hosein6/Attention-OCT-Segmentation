@@ -2,7 +2,7 @@
 
 Deep learning-based multiclass semantic segmentation of retinal layers in Optical Coherence Tomography scans.
 
-<img src="images/oct_layers.png" width="50%">
+<img src="images/oct_layers.png">
 
 
 ## Dataset
