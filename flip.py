@@ -19,3 +19,4 @@ for name in os.listdir(path):
     # Flipped Horizontally & Vertically
     hv_flip = cv2.flip(image, -1)
     cv2.imwrite(save+"hv"+name, hv_flip)
+
