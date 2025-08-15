@@ -2,6 +2,7 @@ import keras
 import keras.backend as K
 
 
+
 class DropBlock1D(keras.layers.Layer):
     """See: https://arxiv.org/pdf/1810.12890.pdf"""
 
