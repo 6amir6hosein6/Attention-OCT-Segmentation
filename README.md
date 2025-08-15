@@ -46,3 +46,6 @@ This work focuses on segmenting **8 distinct retinal layers**:
 ## Architecture
 
 This work uses SA-UNet, a lightweight variant of U-Net tailored for biomedical image segmentation. Like U-Net, it follows a U-shaped encoder–decoder structure with skip connections, enabling it to capture both clear and subtle boundaries in images. SA-UNet enhances this design with a spatial attention module, which generates an attention map along the spatial dimension and refines features adaptively. This approach allows for accurate segmentation even with limited annotated data, especially when combined with data augmentation, making it well-suited for multiclass segmentation of retinal layers in OCT images.
+
+## Reference:
+Guo, C., Szemenyei, M., Yi, Y., Wang, W., Chen, B., & Fan, C. (2020). SA-UNet: Spatial Attention U-Net for Retinal Vessel Segmentation. arXiv:2004.03696. https://arxiv.org/abs/2004.03696
